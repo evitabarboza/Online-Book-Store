@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book-Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Book-Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Books
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Fictional</a></li>
+                            <li><a class="dropdown-item" href="#">Non-Fictional</a></li>
+                            <li><a class="dropdown-item" href="#">Thriller</a></li>
+                            <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Services</a></li>
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">More</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 card-left mb-3 mt-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/book1.jpg" class="img-fluid rounded-start" alt="Book 1">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Don Quixote</h5>
+                                <p class="card-text">Don Quixoteis a Spanish epic novel by Miguel de
+                                    Cervantes. It was originally published in two parts, in 1605 and 1615. It is often
+                                    labelled as the first modern
+                                    noveland the greatest work ever written.Don Quixote is also one of the
+                                    most-translated books in the world and one of the best-selling novels of all
+                                    time.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 card-right mb-3 ml-auto mt-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">A Tale of Two Cities</h5>
+                                <p class="card-text">A Tale of Two Cities is a historical novel published in 1859 by
+                                    Charles Dickens, set in London and Paris before and during the French Revolution.
+                                    The novel tells the story of the French Doctor Manette, his 18-year-long
+                                    imprisonment in the Bastille in Paris, and his release to live in London with his
+                                    daughter Lucie whom he had never met. </p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/book2a.jpg" alt="Book 2" height="275" width="180">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 card-left mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/book3.jpg" class="img-fluid rounded-start" alt="Book 3">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Alice in Wonderland</h5>
+                                <p class="card-text">Alice's Adventures in Wonderland (commonly Alice in Wonderland) is
+                                    an 1865 English children's novel by Lewis Carroll, a mathematics don at the
+                                    University of Oxford. It details the story of a girl named Alice who falls through a
+                                    rabbit hole into a fantasy world of anthropomorphic creatures. The artist John
+                                    Tenniel provided 42
+                                    wood-engraved illustrations for the book.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 card-right mb-3 ml-auto">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">The Little Prince</h5>
+                                <p class="card-text">The Little Prince is a novella written and illustrated by French
+                                    writer, and military pilot,
+                                    Antoine de Saint-Exupéry. It was first published in English and French in the United
+                                    States by Reynal & Hitchcock in April 1943 and was published posthumously in France
+                                    following liberation; Despite the Little Prince
+                                    makes observations about life, adults, and human
+                                    nature.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/book4a.jpg" alt="Book 4" height="280">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 card-left mb-3">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/book5.jpg" class="img-fluid rounded-start" alt="Book 5">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">The Hobbit</h5>
+                                <p class="card-text">The Hobbit is a series of three fantasy adventure films directed by
+                                    Peter Jackson. The films are subtitled An Unexpected Journey, The Desolation
+                                    of Smaug, and The Battle of the Five Armies. Additional material and new characters
+                                    were created specially for the
+                                    films. The series is a prequel to Jackson's The Lord of the Rings film trilogy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 card-right mb-3 ml-auto">
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Harry Potter and the Deathly Hallows</h5>
+                                <p class="card-text">Harry Potter and the Deathly Hallows is a 2011 fantasy
+                                    film directed by David Yates from a screenplay by Steve Kloves.The story concludes
+                                    Harry Potter's quest to find and destroy Lord
+                                    Voldemort's Horcruxes in order to stop him once and for all.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/book6.webp" class="img-fluid rounded-end" alt="Book 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<!-- Footer  -->
+<footer class="bg-dark text-white mt-5 p-4 text-center">
+    <div class="container">
+        <p>&copy; 2023 Book-Store. All Rights Reserved.</p>
+        <div>
+            <a href="#" class="text-white mx-2 link-no-underline">Privacy Policy</a>
+            <a href="#" class="text-white mx-2 link-no-underline">Terms of Service</a>
+            <a href="#" class="text-white mx-2 link-no-underline">Contact Us</a>
+        </div>
+        <div class="mt-3">
+            <p>Follow us on social media:</p>
+            <p><em>@Book-Store-official</em></p>
+            <a href="#" class="text-white mx-2 link-no-underline"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2 link-no-underline"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2 link-no-underline"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white mx-2 link-no-underline"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+
+</html>
